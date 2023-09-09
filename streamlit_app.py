@@ -23,7 +23,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 #new Section to display fruityvice api response
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"watermelon")
 
 
 #This normalized the json tabke
